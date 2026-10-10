@@ -21,6 +21,7 @@
       --body: #5E5450;
       --muted: #8A7D74;
       --accent: #E86F52;
+      --cta: #E86F52;
       --accent-soft: #FBE4DB;
       --positive: #5E9E86;
       --border: #EFE7DD;
@@ -43,11 +44,12 @@
         --body: #C9BDB3;
         --muted: #A99C92;
         --accent: #F0805F;
+        --cta: #D45B40;
         --accent-soft: #3A2A24;
         --positive: #7FBBA3;
         --border: #332A24;
         --shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
-        --glow: 0 8px 18px rgba(240, 128, 95, 0.40);
+        --glow: 0 8px 18px rgba(212, 91, 64, 0.40);
         --frame: #2C251F;
         color-scheme: dark;
       }
@@ -78,7 +80,7 @@
     /* Buttons */
     .cta {
       display: inline-flex; align-items: center; gap: 10px;
-      background: var(--accent); color: #FFFFFF; text-decoration: none;
+      background: var(--cta); color: #FFFFFF; text-decoration: none;
       font: 800 19px/1 "Nunito", system-ui, sans-serif;
       padding: 18px 26px; border-radius: 14px; box-shadow: var(--glow);
       transition: transform .15s ease, box-shadow .15s ease;
